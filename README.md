@@ -5,9 +5,9 @@
 
 
 
-So, as part of developing a distributed database systems one way to acheive horizontal scalability is to redirect requests to replicas with the help of proxy. Which can also act as a load balancer, such as HAProxy. 
+As part of developing a distributed database systems one way to acheive horizontal scalability is to redirect requests to replicas with the help of proxy. Which can also act as a load balancer, such as HAProxy. 
 
-And pgBouncer one of well-known tools in PostgresSQL based enviroments. It is a lightweight connection pooler for PostgreSQL.
+And pgBouncer is a lightweight connection pooler for PostgreSQL.  It is one of well-known tools in PostgresSQL based enviroments. 
 
 
 ----
