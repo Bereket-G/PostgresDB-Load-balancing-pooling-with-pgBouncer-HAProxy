@@ -50,11 +50,11 @@ or if pgBouncer is already running run the above command with -R tag which basic
 
 ## Step 2. Install HAProxy 
 
-Download and install from [here](https://haproxy.debian.net/).
+Install from [here](https://haproxy.debian.net/).
 
 Then configure the HAProxy to listen to specific port and map to respective replica servers. 
 
-    listen pgsql_pool_bereket 
+    listen pgsql_pool 
 	    	bind *:5003
             mode tcp
             option pgsql-check user ha
@@ -88,7 +88,7 @@ Now launch connect to pgBouncer
 
 ## Step 4  GUI statistics report for all connected servers.
 
-add this lines on the `haproxy.cfg` file which is located in /etc/haproxy/haproxy.cfg
+add this lines at the bottom of `haproxy.cfg` file which is located in /etc/haproxy/haproxy.cfg
 
     listen  stats
 	    	bind   127.0.0.1:1936
@@ -120,9 +120,6 @@ Then open browser and go to http://localhost:1936/haproxy?stats enter the creden
 
 
 ![image](https://user-images.githubusercontent.com/19642322/53674798-8a58fe00-3ca1-11e9-9816-7b9422bb385d.png)
-
-
-
 
 
 
