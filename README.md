@@ -1,4 +1,7 @@
-##Load balancing & pooling with pgBouncer & HAProxy 
+## Load balancing & pooling with pgBouncer & HAProxy 
+
+
+![image](https://user-images.githubusercontent.com/19642322/53674836-dad05b80-3ca1-11e9-8a45-d5c9b5b5c59f.png)
 
 
 
@@ -116,6 +119,7 @@ Then open browser and go to http://localhost:1936/haproxy?stats enter the creden
 
 
 
+![image](https://user-images.githubusercontent.com/19642322/53674798-8a58fe00-3ca1-11e9-9816-7b9422bb385d.png)
 
 
 
