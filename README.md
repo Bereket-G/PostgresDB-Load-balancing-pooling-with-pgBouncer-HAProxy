@@ -1,4 +1,4 @@
-## Load balancing & pooling with pgBouncer & HAProxy 
+# Load balancing & pooling with pgBouncer & HAProxy 
 
 
 ![image](https://user-images.githubusercontent.com/19642322/53674836-dad05b80-3ca1-11e9-8a45-d5c9b5b5c59f.png)
@@ -12,7 +12,7 @@ And pgBouncer one of well-known tools in PostgresSQL based enviroments. It is a 
 
 ----
 
-### Step 1. Install pgBouncer
+## Step 1. Install pgBouncer
 
 Detailed instruction can be found here https://pgbouncer.github.io/install.html 
 
@@ -48,7 +48,7 @@ or if pgBouncer is already running run the above command with -R tag which basic
 
 
 
-### Step 2. Install HAProxy 
+## Step 2. Install HAProxy 
 
 Download and install from [here](https://haproxy.debian.net/).
 
@@ -79,7 +79,7 @@ Now launch connect to pgBouncer
 
 ----
 
-### Step 3 Let's Test
+## Step 3 Let's Test
 
 1.run a select query  
 2.Turn down one of the server  
